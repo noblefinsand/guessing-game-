@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Number guessing game</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/typed.js"></script>
+	</head>
+
+	<body>
+		<img src="img/enter.jpg" alt="enter" width="700" height="700">
+		<a href="page2.html" style="text-decoration:none;color:black;"><button class="proceed"><strong>ENTER</strong></button></a>
+		<div id="typed-strings">
+    	<p>Hello...</p></br><p>Thank you for coming.</p><br><p>May I ask... How are your guessing skills?</p><br>
+			<p>I hope they are good...</p><br><p>If they are not, then I'm sorry for what's about to happen.</p><br>
+			<p>Please press the button to enter...</p><br><p>I wouldn't blame you if you didn't.</p>
+
+		</div>
+		<span id="typed"></span>
+		<script>
+			var typed = new Typed('#typed', {
+				stringsElement: '#typed-strings',
+				typeSpeed: 35,
+			});
+	</script>
+	</body>
+</html>
